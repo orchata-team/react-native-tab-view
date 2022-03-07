@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { Animated, Keyboard, StyleSheet } from 'react-native';
-import ViewPager, {
+import {
   PageScrollStateChangedNativeEvent,
+  PagerView as ViewPager,
 } from 'react-native-pager-view';
 import useAnimatedValue from './useAnimatedValue';
 import type {
