@@ -17,8 +17,7 @@
     "release": "release-it",
     "example": "yarn --cwd example",
     "bootstrap": "yarn example && yarn",
-    "prepare": "bob build",
-    "postinstall": "yarn prepare"
+    "prepare": "bob build"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
